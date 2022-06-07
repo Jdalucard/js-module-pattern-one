@@ -1,0 +1,15 @@
+{
+  "name": "clasemike",
+  "version": "1.0.0",
+  "description": "appmike",
+  "main": "index.js",
+  "type":"module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose martinez",
+  "license": "ISC"
+}
