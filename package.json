@@ -3,13 +3,29 @@
   "version": "1.0.0",
   "description": "appmike",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint .",
+    "prepare": "husky install"
   },
   "author": "Jose martinez",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jdalucard/js-module-pattern-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jdalucard/js-module-pattern-one/issues"
+  },
+  "homepage": "https://github.com/Jdalucard/js-module-pattern-one#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "husky": "^8.0.0"
+  }
 }
